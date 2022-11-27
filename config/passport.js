@@ -1,7 +1,3 @@
-module.exports = {
-    mongoURI: "mongodb+srv://maddysk01:qwerty1234@reactapp.ytzshv5.mongodb.net/test",
-    secretOrKey: "secret"
-};
 const JwtStrategy = require("passport-jwt").Strategy;
 const ExtractJwt = require("passport-jwt").ExtractJwt;
 const mongoose = require("mongoose");
